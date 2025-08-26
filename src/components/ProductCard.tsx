@@ -22,7 +22,7 @@ const ProductCard = ({
   isSale = false 
 }: ProductCardProps) => {
   return (
-    <div className="product-card">
+    <div className="product-card group">
       {/* Image Container */}
       <div className="relative overflow-hidden bg-muted">
         <img 
